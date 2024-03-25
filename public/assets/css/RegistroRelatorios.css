@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+
+    background-image: linear-gradient(to right, #e1e1e1, #d7d5d5);
+}
+.align {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 50px 50px;
+}
+.box {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.borda {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.titulo {
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
+.tituloTabela {
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+}
+
+.categoria {
+    padding: 10px;
+    text-transform: uppercase;
+}
+.valor {
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.tabela {
+    width: 100%;
+}

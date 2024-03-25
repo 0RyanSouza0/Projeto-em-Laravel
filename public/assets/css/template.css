@@ -1,0 +1,154 @@
+html {
+    height: 100%;
+}
+nav {
+    background-color: #808080;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+}
+nav .logo {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+nav .logo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 100%;
+    padding: 6px;
+}
+
+nav ul {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    gap: 0px;
+}
+nav ul li {
+    list-style: none;
+    margin-top: -100px;
+    margin-right: 40px;
+}
+nav ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #808080;
+    border-radius: 15px;
+    font-size: 1.9rem;
+    font-family: "Poppins", sans-serif;
+    transition: 0.4s all ease-in-out;
+    padding: 12px 10px;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #808080;
+    background-color: white;
+    border: 1px solid #808080;
+    transition: 0.4s all ease-in-out;
+}
+.rodape {
+    width: 100%;
+    background-color: #292929;
+    position: relative;
+    bottom: 0;
+}
+
+.rodape {
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+.rodape p {
+    margin-bottom: 5px;
+}
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+    justify-content: center;
+    
+}
+.align-coluna{
+    display: flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3,
+.rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+.marca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.marca p{
+    font-size: 3.9rem;
+    border-bottom: 2px solid white;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s ease-in-out all ;
+}
+
+.marca p:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out all ;
+}
+.rodape span {
+    font-size: 20px;
+    color: white;
+}
+.rodape-direitos {
+    width: 100%;
+    background-color: #292929;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+/* GALERIA CSS */
+
+/* text principal galeria */
+/* .Pgaleria{
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* cards */
+
+/* .card{
+  width: 29rem; 
+  border:solid 2px black; 
+  border-radius:3px;
+  margin-left: 8em;
+  margin-bottom: 3em;
+}
+
+.imagem-card{
+  width: 286px;
+  height: 180px;
+}
+*/
